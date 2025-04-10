@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+
+# 输出文件
+output/
+
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 微信小程序
+project.private.config.json
+*.wxss.map
+*.wxml.map
+*.js.map
+*.json.map
+*.wxss.map
+*.wxml.map
+*.js.map
+*.json.map
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 系统文件
+.DS_Store
+Thumbs.db 

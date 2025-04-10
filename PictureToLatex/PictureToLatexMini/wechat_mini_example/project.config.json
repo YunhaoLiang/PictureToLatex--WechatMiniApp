@@ -46,7 +46,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "3.0.2",
-  "appid": "wxcef74e94a64ae20b",
+  "appid": "YOUR_APP_ID_HERE",
   "projectname": "PictureToLatex",
   "condition": {},
   "editorSetting": {

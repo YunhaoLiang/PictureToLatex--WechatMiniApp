@@ -8,11 +8,11 @@ App({
       // 模拟器使用localhost
       simulatorApiUrl: 'http://localhost:8001/api',
       // 真机使用IP地址
-      deviceApiUrl: 'http://136.25.14.196:8001/api'
+      deviceApiUrl: 'http://YOUR_DEVICE_IP:8001/api'
     },
     // 生产环境API地址（需要替换为实际的服务器地址）
     prod: {
-      apiBaseUrl: 'https://your-domain.com/api'
+      apiBaseUrl: 'https://YOUR_DOMAIN.com/api'
     }
   },
   
