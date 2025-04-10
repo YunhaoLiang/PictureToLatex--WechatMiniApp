@@ -1,0 +1,19 @@
+text, Score: 0.52 text, Score: 0.49
+配区点电acacGcoetet tec cen c t owalc. s
+ $7. 4 {\bf a}.$ 
+text, Score: 0.53
+These intuitions can be formalized by looking at the simplest possible matching criterion text, Score:0.45
+for comparing two image patches, i., their (weighted) summed square difference,
+$$
+E_{\mathrm{W S S D}} ( {\bf u} )=\sum_{i} w ( {\bf x}_{i} ) [ I_{1} ( {\bf x}_{i}+{\bf u} )-I_{0} ( {\bf x}_{i} ) ]^{2}, \tag{7.1}
+$$
+sHeC $I_{0}$ and $I_{1}$ , let, Score: 0.70 LeNt.Sscore:.0.71
+text, Score: 0.82 山 are the two images being compared, ${\mathbf u}=( u, v ) \$ cenonocun
+ext,
+medsing, Scte :0.45 $i$ 
+ $w ( \mathbf{x} )$ is a spatially varying weighting (or window) function, and the summation
+the pixels in the patch. Note that this is the same formulation we later use to estimate motion Score: 0.64
+between complete images (Section 9.1).
+text, Score: 0.54
+When performing feature detection, we do not know which other image locations the text, Score: 0.55
+feature will end up being matched against. Therefore, we can only compute how stable this

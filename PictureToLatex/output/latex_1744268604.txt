@@ -1,0 +1,4 @@
+
+$$
+{\cal L}_{\mathrm{e y e l i d}} \;=\sum_{t=1}^{T} \sum_{v=1}^{V} {\cal M}_{v}^{( \mathrm{e y e l i d} \, )} \left( \left\| \hat{h}_{t, v}-x_{t, v} \right\|^{2} \right)
+$$

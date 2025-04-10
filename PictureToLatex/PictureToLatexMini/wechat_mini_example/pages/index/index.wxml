@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">图片转LaTeX</view>
+  
+  <view class="error-box" wx:if="{{errorMsg}}" bindtap="clearError">
+    <text class="error-text">{{errorMsg}}</text>
+  </view>
+  
+  <view class="upload-box">
+    <button class="upload-btn" bindtap="chooseImage" disabled="{{isLoading}}">
+      {{imageUrl ? '重新选择' : '选择图片'}}
+    </button>
+    
+    <view class="preview" wx:if="{{imageUrl}}">
+      <image src="{{imageUrl}}" mode="aspectFit"></image>
+    </view>
+  </view>
+  
+  <view class="result-box" wx:if="{{latexResult}}">
+    <view class="result-title">识别结果</view>
+    <view class="result-content">{{latexResult}}</view>
+    <button class="copy-btn" bindtap="copyResult">复制</button>
+  </view>
+  
+  <view class="loading" wx:if="{{isLoading}}">
+    <view class="loading-text">正在识别...</view>
+  </view>
+</view> 
